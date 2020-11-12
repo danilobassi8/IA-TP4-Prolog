@@ -1,0 +1,26 @@
+:- dynamic enfermedad_tratamiento/2.
+
+enfermedad_tratamiento("conjutivitis", ["colirios antiinflamatorios", "antihistaminicos"]).
+enfermedad_tratamiento("conjuntivitis bacteriana", ["antibiotico"]).
+enfermedad_tratamiento("varicela", ["antitermicos", "antihistaminicos"]).
+enfermedad_tratamiento("otitis", ["antibioticos", "anti inflamatorios"]).
+enfermedad_tratamiento("gripe", ["antitermicos", "analgesicos", "jarabe para la tos"]).
+enfermedad_tratamiento("faringitis", ["analgesicos", "antiinflamatorios", "analgesicos"]).
+enfermedad_tratamiento("broquiolitis", ["hidratacion", "nebulizador"]).
+enfermedad_tratamiento("diarrea", ["hidratacion", "evitar azucares"]).
+enfermedad_tratamiento("herpes", ["antiviral", "analgesico", "antiinflamatorio no esteroideo"]).
+
+
+:- dynamic enfermedad_sintoma/2.
+
+enfermedad_sintoma("conjuntivitis", ["enrojecimiento de globo ocular", "hinchazon de parpados", "lagrimeo", "picor"]).
+enfermedad_sintoma("conjuntivitis bacteriana", ["enrojecimiento de globo ocular", "hinchazon de parpados", "lagrimeo", "picor", "secresion amarillena o verdosa"]).
+enfermedad_sintoma("varicela", ["cansancio", "fiebre", "erupciones"]).
+enfermedad_sintoma("otitis", ["inflamacion de oidos", "dolor intenso de oidos", "dificultad para escuchar"]).
+enfermedad_sintoma("gripe", ["fiebre", "cefaleas", "vomitos", "tos", "tos seca"]).
+enfermedad_sintoma("faringitis", ["dolor de garganta", "garganta rojiza", "fiebre", "dolor de cabeza", "ganglios inflamados"]).
+enfermedad_sintoma("bronquiolitis", ["tos", "catarro", "dificultad para respirar"]).
+enfermedad_sintoma("diarrea", ["heces blandas", "vomitos", "fiebre"]).
+enfermedad_sintoma("herpes", ["ulceras vocales", "ampollas febriles", "dolor labial", "enrojecimiento"]).
+
+
